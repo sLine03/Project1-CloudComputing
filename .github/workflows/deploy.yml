@@ -23,7 +23,6 @@ jobs:
     - name: Install Dependencies
       run: |
         pip install -r requirements.txt
-        pip install pytest
 
     - name: Python Syntax Check
       run: |
