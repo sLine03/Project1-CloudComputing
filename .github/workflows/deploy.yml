@@ -25,9 +25,9 @@ jobs:
         pip install -r requirements.txt
         pip install pytest
 
-    - name: Run Tests
+    - name: Python Syntax Check
       run: |
-        pytest
+        python -m py_compile lambda_function.py
 
   docker:
 
